@@ -1,0 +1,227 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fcf4d073;
+}
+
+/************************************ navbar section  ***************************************/
+
+.hero-nav{
+    background-color: #ffffff;
+    /* position: absolute; */
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+}
+
+.hero-nav h1{
+    padding-left: 2%;
+    color: #ea6a12;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-nav .right-side{
+    display: inline-flex;
+    padding-left: 63%;
+    align-items: center;
+}
+
+.hero-nav .right-side ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hero-nav .right-side ul li{
+    padding: 10px;
+}
+
+.hero-nav .right-side ul li a{
+    color: #f1a06a;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.hero-nav .right-side ul li img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: baseline;
+}
+
+.hero-nav .right-side ul li img:hover{
+    cursor: pointer;
+}
+
+.hero-nav .user-profile{
+    padding-left: 10px;
+    align-items: center;
+}
+
+.hero-nav .user-profile h6{
+    margin-top: 6px;
+    margin-bottom: -14px;
+    font-size: 18px;
+    align-items: center;
+    font-family: "Playfair Display",serif;
+    letter-spacing: .02em;
+}
+
+.hero-nav .user-profile h6:hover{
+    cursor: pointer;
+}
+
+.hero-nav .user-profile p{
+    display: block;
+    color: #07143B;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+}
+
+.hero-nav .user-profile p:hover{
+    cursor: pointer;
+    color: #ea6a12;
+}
+
+/************************************** Profile banner Section *******************************/
+
+.hero-images{
+    margin: 25px;
+}
+
+.hero-images .images-bootom{
+    position: relative;
+    width: 100%;
+}
+
+.hero-images .images-bootom .profile-details{
+    position: absolute;
+    width: 96.60%;
+    height: 100px;
+    top: 350px;
+    bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(42px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.hero-images img{
+    width: 100%;
+    height: 450px;
+    border-radius: 1.5rem;
+}
+
+/************************************* Main Content Section **********************************/
+
+.title{
+    margin: 2%;
+    margin-bottom: 0;
+    color: #ea6a12;
+}
+
+.main-content{
+    margin: 2%;
+    margin-left: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.main-content .main-card{
+    padding: 12px;
+    border: 1px solid #aeaeae;
+    border-radius: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-bottom: inherit;
+}
+
+.main-content .main-card a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-content .main-card p{
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing: 0.12em;
+}
+
+.main-content .main-card .calary{
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.main-content .main-card h6{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+    color: #ea6a12;
+    font-family: "Playfair Display",serif;
+    font-weight: 600;
+}
+
+.main-content .main-card .food-img{
+    display: inline;
+}
+
+.main-content .main-card .food-img img{
+    border-radius: 10px;
+}
+
+/* Footer Section Desgin */
+
+footer{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    height: 34px;
+}
+
+footer .footer-body{
+    margin-left: -20px;
+}
+
+footer .footer-body ul{
+    list-style: none;
+    display: flex;
+    padding-left: auto;
+}
+
+footer .footer-body ul li{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display'; 
+}
+
+footer .right-panel{
+    margin-right: 30px;
+}
+
+footer .right-panel a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
